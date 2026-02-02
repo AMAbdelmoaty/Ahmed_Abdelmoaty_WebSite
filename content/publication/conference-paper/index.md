@@ -34,7 +34,7 @@ abstract: The exponential growth of traffic in mobile networks is leading to inc
 Summary: The exponential growth of mobile traffic necessitates meticulous backhaul network planning. We formulate hierarchical wireless backhaul design as an Integer Linear Programming (ILP) problem and propose a scalable graph theory-based algorithm to ensure topology simplicity, resiliency, and reliability. Evaluation using practical channel models shows that only 5–10% of nodes are required for backhauling even under high resiliency constraints. Our algorithm consistently yields near-optimal solutions across diverse network scenarios.
 
 tags:
-  -Graph theory-based algorithm, hierarchical network topology, resilient and simple topology, wireless backhaul networks.
+  - "Graph theory-based algorithm, hierarchical network topology, resilient and simple topology, wireless backhaul networks."
 
 # Display this page in the Featured widget?
 featured: true
