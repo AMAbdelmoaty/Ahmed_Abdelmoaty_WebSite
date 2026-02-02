@@ -5,19 +5,20 @@ title: 'An example conference paper'
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - Ahmed Abdelmoaty
+  - Diala Naboulsi
+  - Francois Gagnon
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: '2022-06-20T00:00:00Z'
+doi: '10.1109/VTC2022-Spring54318.2022.9860381'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2022-06-20T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +26,16 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *On The Design of Resilient and Reliable Wireless Backhaul Networks*
+publication_short: In *IEEE-VTC*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The exponential growth of traffic in mobile networks is leading to increased pressure on the infrastructure of mobile networks and in particular on their backhaul networks. It is more critical than ever to carefully plan backhaul networks. In this paper, we formulate and solve the problem of hierarchical wireless backhaul network design. In formulating our problem, we cover different requirements, namely: topology simplicity, network resiliency, and link reliability. We formulate the problem as an Integer Linear Programming (ILP) problem, allowing us to solve the problem to optimality. Furthermore, we provide a graph theory-based algorithm that allows solving the problem over a large scale. The proposed algorithm exploits the properties of the graph that represents the network. The results of our evaluations in various network scenarios demonstrate the efficiency of our ILP formulation and the proposed algorithm in keeping the backhaul network simple, resilient, and reliable. Using a practical channel propagation model and different node densities that are representative of small-scale and large-scale urban environments, our results also show that even with high resiliency requirements, the network traffic can be backhauled with only 5-10% of the nodes for the considered densities. Our results also demonstrate that our algorithm leads to near-optimal solutions in different scenarios.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: The exponential growth of mobile traffic necessitates meticulous backhaul network planning. We formulate hierarchical wireless backhaul design as an Integer Linear Programming (ILP) problem and propose a scalable graph theory-based algorithm to ensure topology simplicity, resiliency, and reliability. Evaluation using practical channel models shows that only 5–10% of nodes are required for backhauling even under high resiliency constraints. Our algorithm consistently yields near-optimal solutions across diverse network scenarios.
 
 tags:
-  - Large Language Models
+  -Graph theory-based algorithm, hierarchical network topology, resilient and simple topology, wireless backhaul networks.
 
 # Display this page in the Featured widget?
 featured: true
@@ -66,7 +67,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - Application of Machine Learning in Agile Wireless Backhaul Networks: Performance Analysis and Design Insights
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
